@@ -1,0 +1,68 @@
+#App{
+  margin: 0;
+  padding:0 ;
+}
+.App nav{
+  background: #ffffff;
+  width:100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.App nav img{
+  width: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.App p{
+  text-align: left;
+  font-size: 20px;
+  margin-top: 5px;
+  color: #808080;
+}
+.App-text{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-bottom: 2px;
+}
+.App-text p{
+  color: #0000ff;
+}
+.pic-thumbnail{
+  background: #ffffff;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+.pic-thumbnail img{
+  border-radius: 10px;
+  margin: 10px;
+}
+.App-text2{
+  text-align:left;
+  display:flex;
+  justify-content: space-between;
+  margin:30px;
+}
+.App-text2 a{
+  color:#0000ff;
+}
+.map{
+  background:#ffffff;
+  margin:40px;
+  padding:40px;
+  flex-wrap:wrap;
+  max-width:1200px;
+  justify-content:center;
+}
+.map img{
+  border-radius:10px;
+  margin:10px;
+  width:800px;
+  height:300px;
+  margin-top:5px;
+}
